@@ -1,4 +1,4 @@
-import Tilt from "react-tilt";
+import Tilt from "react-parallax-tilt";
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
@@ -83,7 +83,16 @@ const Works = () => {
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
       </div>
+      <div className="flex justify-center items-center mt-10">
+          <h4 className={styles.sectionSubText}>
+          For more projects, please visit my: {" "}
+            <a href="https://github.com/Nujan100" target="_blank" rel="noopener noreferrer">
+              Github
+            </a>
+          </h4>
+        </div>
     </>
+    
   );
 };
 

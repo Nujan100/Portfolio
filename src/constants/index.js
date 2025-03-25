@@ -52,20 +52,20 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
-    icon: web,
-  },
-  {
-    title: "Flutter Developer",
-    icon: mobile,
-  },
-  {
-    title: "Backend Developer",
-    icon: backend,
+    title: "Data Science",
+    icon: creator,
   },
   {
     title: "Database Developer",
     icon: creator,
+  },
+  {
+    title: "Web & Mobile Developer",
+    icon: web,
+  },
+  {
+    title: "Backend Developer",
+    icon: backend,
   },
 ];
 
@@ -118,14 +118,14 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Facuty Member",
+    title: "Full Time - Lecturer",
     company_name: "PCPS College",
     icon: PCPS,
     iconBg: "#E6DEDD",
     date: "September 2022 - Present",
     points: [
-      "PROVIDED INSTRUCTION AND GUIDANCE TO STUDENTS IN THE SUBJECTS OF PYTHON PROGRAMMING, DATABASE DESIGN, AI, AND FLUTTER.",
-      "CONDUCTED TUTORING SESSIONS AND SMALL GROUP ACTIVITIES TO REINFORCE LEARNING OBJECTIVES, HELPING STUDENTS TO COMPLETE THE ASSIGNMENTS.",
+      "PROVIDED INSTRUCTION AND GUIDANCE TO STUDENTS IN THE MODULES OF PYTHON PROGRAMMING, DATABASE,CONCEPT OF ARTIFICIAL INTELLIGENCE, MOBILE APPLICATION DEVELOPMENT (FLUTTER).",
+      "CONDUCTED LECTURING SESSIONS AS MODULE LEADER, TAKING FULL CONTROL OF MODULES/COURSES TO REINFORCE LEARNING OBJECTIVES AND ENABLE STUDENTS TO COMPLETE THEIR ASSIGNMENTS.",
       "ASSISTED IN GRADING ASSIGNMENTS AND PROVIDED CONSTRUCTIVE FEEDBACK TO STUDENTS, FACILITATING THEIR GROWTH AND IMPROVEMENT.",
     ],
   },
@@ -156,6 +156,22 @@ const experiences = [
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
+  {
+    title: "Freelance Developer",
+    company_name: "Self-Employed",
+    icon: web,
+    iconBg: "#E6DEDD",
+    date: "Ongoing",
+    points: [
+      "Freelancing in multiple mini projects using stacks like React, Node.js, Python, and various databases.",
+      "Developing and maintaining web applications using HTML, CSS, and WordPress.",
+      "Implementing and managing APIs for seamless integration across different platforms.",
+      "Handling hosting and deployment for various web applications and services.",
+      "Designing mobile and web applications in Figma for enhanced UI/UX experience.",
+    ],
+  },
+
+  
 ];
 
 
@@ -165,7 +181,7 @@ const education = [
     company_name: "British College",
     icon: britishcollege,
     iconBg: "#E6DEDD",
-    date: "September 2022 - Current",
+    date: "September  2022 - 2024",
     points: [
       "The MSc Information and Technology is a programme rich in a specialisation, that provides a transformational experience to its students by integrating the technological and business aspects of modern IT.",
       "In an era where digitalisation is pervasive across all sectors and industries, the course has been designed to address the high demands of both the private and public sector, by filling the current digital skills gap."

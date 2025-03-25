@@ -9,6 +9,7 @@ import Education from "./Education";
 import Feedbacks from "./Feedbacks";
 import Contact from "./Contact";
 import CanvasLoader from "./Loader";
+import OnviroTech from "../assets/company/OnviroTech.png";
 
 
 export {
