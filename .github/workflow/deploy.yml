@@ -5,6 +5,20 @@ deploy:
   if: github.ref == 'refs/heads/main'
 
   steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '16'  # Specify the version of Node.js to use
+
+    - name: Install dependencies
+      run: npm install
+
+    - name: Build project
+      run: npm run build
+
     - name: Download artifact
       uses: actions/download-artifact@v3
       with:
