@@ -1,6 +1,6 @@
 [build]
   command = "npm run build"
-  publish = "dist"  # Make sure this points to the correct directory
+  publish = "dist"
 
 [[plugins]]
   package = "@netlify/plugin-lighthouse"
