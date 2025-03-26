@@ -1,6 +1,6 @@
 [build]
   command = "npm run build"
-  publish = "dist"
+  publish = "dist"  # Make sure this points to the correct directory
 
-[context.production.environment]
-  NODE_ENV = "production"
+[[plugins]]
+  package = "@netlify/plugin-lighthouse"
