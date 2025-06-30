@@ -60,10 +60,20 @@ const ProjectCard = ({
 const Works = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>My Work</p>
-        <h2 className={styles.sectionHeadText}>Projects.</h2>
+      <motion.div variants={textVariant()} className="flex justify-between items-center">
+        <div>
+          <p className={styles.sectionSubText}>My Work</p>
+          <h2 className={styles.sectionHeadText}>Projects.</h2>
+        </div>
+        <button
+          onClick={() => window.open("https://github.com/nujan100", "_blank")}
+          className="px-4 py-2 bg-accent text-white rounded-md hover:bg-[#7a4ede] transition-colors duration-300"
+          aria-label="Visit GitHub for more projects"
+        >
+          Visit GitHub for more
+        </button>
       </motion.div>
+
       <div className="mt-20 flex flex-wrap gap-7">
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />

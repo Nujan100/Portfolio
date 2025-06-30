@@ -14,10 +14,10 @@ const Hero = () => {
       {/* Text & UI Container (Below Spline) */}
       <div className="w-full h-[40vh] flex flex-col justify-center items-center text-center px-4">
         <h1 className={`${styles.heroHeadText} text-white text-3xl sm:text-4xl`}>
-          Hi, I'm <span className="text-[#915EFF]">Nujan</span>
+          Hi, I'm <span className="text-[#5587d4]">Nujan</span>
         </h1>
         <p className={`${styles.heroSubText} mt-2 text-white-100 text-base sm:text-lg`}>
-          I develop Web Applications, Mobile Apps, and User Interfaces
+          Crafting intelligent, scalable solutions—bridging data, code, and cloud.
         </p>
       </div>
 

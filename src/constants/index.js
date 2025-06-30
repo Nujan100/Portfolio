@@ -28,6 +28,7 @@ import {
   jobit,
   tripguide,
   OnviroTech,
+  gyancomp,
   PCPS,
   laliguras,
   laliguras1,
@@ -134,17 +135,32 @@ const experiences = [
     ],
   },
   {
-    title: "Front-End & NodeJs Developer (PART TIME)",
+    title: "Lead Developer & IT Administrator",
+    company_name: "Gyan & Company",
+    icon: gyancomp,
+    iconBg: "#E6DEDD",
+    date: "November 2022 - Present",
+    points: [
+      "Managing and maintaining the company's website, ensuring uptime, performance, and regular content updates.",
+      "Overseeing IT infrastructure, including network setup, WiFi configuration, desktop provisioning, and CCTV systems.",
+      "Providing technical support and troubleshooting for all hardware, software, and connectivity issues across the company.",
+      "Implementing and monitoring data backup strategies and basic cybersecurity best practices.",
+      "Handling end-to-end deployment and updates of internal systems and web services.",
+    ],
+  },
+  {
+    title: "Full Stack Developer",
     company_name: "Laliguras",
     icon: laliguras,
     iconBg: "#E6DEDD",
-    date: "November 2022 - Present",
+    date: "November 2022 - 2023",
     points: [
       "Developing and maintaining web applications using HTML, CSS, NodeJS and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
+
   },
   {
     title: "Flutter Developer",
@@ -185,7 +201,7 @@ const education = [
       "In an era where digitalisation is pervasive across all sectors and industries, the course has been designed to address the high demands of both the private and public sector, by filling the current digital skills gap."
     ],
   },
-  
+
   {
     title: "BSC (HONS) COMPUTING - First Class",
     company_name: "Islington College",

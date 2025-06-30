@@ -25,6 +25,7 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import OnviroTech from "./company/OnviroTech.png";
+import gyancomp from "./company/logo_gyan.png";
 import PCPS from "./company/PCPS.png";
 import laliguras from "./company/laliguras.svg";
 import tesla from "./company/tesla.png";
@@ -69,6 +70,7 @@ export {
   jobit,
   tripguide,
   OnviroTech,
+  gyancomp,
   laliguras,
   PCPS,
   laliguras1,
