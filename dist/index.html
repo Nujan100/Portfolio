@@ -3,71 +3,147 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    
-    <title>Nujan Shrestha | Official Portfolio of Nujan</title>
+
+    <title>Nujan Shrestha Portfolio</title>
 
     <!-- SEO Meta Tags -->
-    <meta name="description" content="Welcome to the official portfolio of Nujan Shrestha — known as Nujan. Explore his projects, skills, and experience as a software developer and tech enthusiast from Nepal." />
-    <meta name="keywords" content="Nujan, Nujan Shrestha, Nujan Portfolio, Nujan Shrestha Developer, Software Developer Nepal, Nujan Programmer, Nujan Shrestha Projects" />
+    <meta name="description"
+      content="Official portfolio of Nujan Shrestha — software developer, programmer, and tech enthusiast. Explore my projects, skills, and contact information." />
+    <meta name="keywords"
+      content="Nujan Shrestha, nujan shrestha, nujan, nujan100, nujan123, Software Developer, Portfolio, Programmer, React, Python, Web Developer" />
+    <meta name="description"
+      content="I'm Nujan Shrestha — a software developer and programmer. This is my official portfolio showcasing my skills, projects, and experience." />
+    <meta name="keywords"
+      content="Nujan, Nujan Shrestha, Software Developer, Programmer, Web Developer, Portfolio, Nepal Developer, React, Python" />
     <meta name="author" content="Nujan Shrestha" />
 
     <!-- Open Graph Meta Tags -->
-    <meta property="og:title" content="Nujan Shrestha | Developer Portfolio of Nujan" />
-    <meta property="og:description" content="Discover the personal site of Nujan Shrestha — aka Nujan. View his work as a software developer, coder, and tech enthusiast." />
+    <meta property="og:title" content="Nujan Shrestha | Developer Portfolio" />
+    <meta property="og:description"
+      content="Explore the personal website and portfolio of Nujan Shrestha — featuring projects, skills, and contact." />
+    <meta property="og:description"
+      content="Discover Nujan Shrestha's personal portfolio website. Learn about his projects, coding skills, and career journey." />
     <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://nujan123.com/assets/logo-BqiL23lx.png" />
+    <meta property="og:url" content="https://nujan123.com" />
     <meta property="og:image" content="https://nujan123.com.np/assets/logo-BqiL23lx.png" />
     <meta property="og:url" content="https://nujan123.com.np" />
     <meta property="og:site_name" content="Nujan Shrestha Portfolio" />
-
-    <!-- Twitter Card (optional but good) -->
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Nujan Shrestha | Software Developer Portfolio" />
-    <meta name="twitter:description" content="Official website of Nujan Shrestha — also known as Nujan. Browse his portfolio, skills, and contact details." />
-    <meta name="twitter:image" content="https://nujan123.com.np/assets/logo-BqiL23lx.png" />
 
     <!-- Canonical URL -->
     <link rel="canonical" href="https://nujan123.com.np" />
 
     <!-- Favicon -->
-    <link rel="icon" type="image/png" href="./assets/logo-BqiL23lx.png" />
+    <link rel="icon" type="image/svg+xml" href="./assets/logo-BqiL23lx.png" />
 
     <!-- CSS & JS -->
-    <link rel="stylesheet" href="./css/style.css" />
-    <script defer src="./js/script.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-IXfh0V10.css" />
+    <script type="module" crossorigin src="./assets/index-BsEnCWt-.js"></script>
 
-    <!-- Structured Data for Google -->
+    <!-- Structured Data (JSON-LD) -->
     <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "Person",
-        "name": "Nujan Shrestha",
-        "alternateName": "Nujan",
-        "url": "https://nujan123.com.np",
-        "sameAs": [
-          "https://github.com/nujan100",
-          "https://np.linkedin.com/in/nujan-shrestha-493409207"
-        ],
-        "jobTitle": "Software Developer and Data Science Enthusiast",
-        "worksFor": {
-          "@type": "Organization",
-          "name": "Freelance"
-        },
-        "image": "https://nujan123.com.np/assets/logo-BqiL23lx.png"
-      }
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Nujan Shrestha",
+      "url": "https://nujan123.com",
+      "sameAs": [
+        "https://github.com/yourusername",
+        "https://linkedin.com/in/yourusername",
+        "https://github.com/nujan100",
+        "https://np.linkedin.com/in/nujan-shrestha-493409207"
+      ],
+      "jobTitle": "Software Developer and Data Science Enthusiast",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Freelance"
+      },
+      "image": "https://nujan123.com.np/assets/logo-BqiL23lx.png"
+    }
     </script>
+
+    <!-- 🔵 Animation Fixes -->
+    <style>
+      /* Prevent white flash */
+      body {
+        background-color: #000;
+        margin: 0;
+        padding: 0;
+      }
+
+      /* Slide and fade out animation */
+      @keyframes slideUpFade {
+        0% {
+          opacity: 1;
+          transform: translateY(0);
+        }
+        100% {
+          opacity: 0;
+          transform: translateY(-50px);
+        }
+      }
+    </style>
   </head>
+
   <body>
     <noscript>
+      <h1>Nujan Shrestha | Software Developer Portfolio</h1>
+      <p>This site requires JavaScript to view the full interactive experience.</p>
       <h1>Nujan Shrestha — Software Developer</h1>
-      <p>This is the official portfolio of Nujan, also known as Nujan Shrestha — a passionate developer and tech enthusiast from Nepal.</p>
+      <p>This is the portfolio of Nujan Shrestha — a passionate developer and tech enthusiast.</p>
     </noscript>
 
-    <main role="main">
-      <section class="intro">
-        <h1>Hello, I'm <span>Nujan Shrestha</span></h1>
-        <p>Known as <strong>Nujan</strong> — a software developer based in Nepal.</p>
-        <a href="#projects" class="btn">See My Projects</a>
-      </section>
-    </main>
+    <!-- 🔵 Loading Screen -->
+    <div id="loader" style="
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      background-color: #000;
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      z-index: 9999;
+      font-size: 2rem;
+      font-family: sans-serif;
+      transition: all 1s ease;
+    ">
+      <div>Loading Nujan Shrestha Portfolio...</div>
+      <div id="countdown" style="margin-top: 10px; font-size: 3rem;">7</div>
+    </div>
+
+    <!-- Main App -->
+    <div id="root" style="opacity: 0; transition: opacity 0.5s;"></div>
+
+    <!-- 🔵 Timer Script -->
+    <script>
+      let counter = 7;
+      const countdownEl = document.getElementById('countdown');
+      const loaderEl = document.getElementById('loader');
+      const rootEl = document.getElementById('root');
+
+      const interval = setInterval(() => {
+        counter--;
+
+        if (counter >= 0) {
+          countdownEl.textContent = counter;
+        }
+
+        if (counter === 1) {
+          loaderEl.style.animation = 'slideUpFade 1s ease forwards';
+        }
+
+        if (counter === 0) {
+          clearInterval(interval);
+          setTimeout(() => {
+            loaderEl.style.display = 'none';
+            rootEl.style.opacity = '1';
+          }, 1000); // Wait for animation to finish
+        }
+      }, 1000);
+    </script>
   </body>
 </html>
