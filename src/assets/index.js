@@ -30,6 +30,7 @@ import PCPS from "./company/PCPS.png";
 import laliguras from "./company/laliguras.svg";
 import tesla from "./company/tesla.png";
 import laliguras1 from "./laliguras-1.png";
+import gyan from "./gyan.png";
 import lionsapp from "./lionsapp.jpg";
 import nepaltravel from "./nepaltravel.jpg";
 import carrent from "./carrent.png";
@@ -79,5 +80,6 @@ export {
   britishcollege,
   mountsinai,
   islington,
+  gyan,
   LA,
 };

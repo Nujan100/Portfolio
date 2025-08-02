@@ -37,6 +37,7 @@ import {
   britishcollege,
   mountsinai,
   islington,
+  gyan,
   LA,
 } from "../assets";
 
@@ -265,6 +266,31 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "Gyan & Company",
+    description:
+      "Web-based platform for Auditing Firm Gyan & Company.",
+    tags: [
+      {
+        name: "HTMl",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Three JS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Django",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: gyan,
+    source_code_link: "https://gyanandco.com.np",
+  },
   {
     name: "laliguras",
     description:
